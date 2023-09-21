@@ -1,0 +1,19 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "A calculator App to test my skills",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "warning": "electron --trace-warnings ."
+  },
+  "author": "Pedro Raposo",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.1"
+  },
+  "dependencies": {
+    "electron-drag": "^2.0.0"
+  }
+}
