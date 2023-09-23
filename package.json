@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
     "warning": "electron --trace-warnings .",
-    "publish": "electron-packager . --overwrite --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Calculadora\""
+    "build": "electron-packager . --platform=win32 --arch=x64 --icon=assets/icons/win/icon.ico --out=release-builds --overwrite --asar --prune=true --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Calculadora\""
   },
   "author": "Pedro Raposo",
   "license": "ISC",

@@ -75,7 +75,7 @@ app.whenReady().then(() => {
     mainWindow = createWindow();
 
     //devtools
-    mainWindow.webContents.openDevTools({ mode: 'detach' });
+    // mainWindow.webContents.openDevTools({ mode: 'detach' });
 
     app.on("activate", () => {
         if (BrowserWindow.getAllWindows().length === 0) {
